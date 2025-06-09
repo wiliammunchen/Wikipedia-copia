@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: auto;
+    background-color: #f5f5f5;
+    width: 98vw;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #cacaca;
+}
+
+.header-container img {
+    width: 10%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;  
+    margin-right: 10px; 
+}
+
+.search-form input {
+    padding: 10px;
+    border-color: rgb(155, 155, 155);
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(155, 155, 155);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header-title {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    align-self: first baseline;
+    width: 15%; 
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 5px;
+    display: block; 
+}
+
+nav ol li {
+    margin: 5px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    width: 85%;
+}
+
+article {
+    flex: 1;
+    width: 70%;
+    padding: 7px;
+}
+
+section {
+    text-align: center;
+    width: 30%;
+    padding: 7px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: black; 
+    margin: 20px; 
+}
+
+th {
+    width: 100%;
+    background-color: #cacaca;
+    padding: 5px;
+    color: rgb(16, 1, 39);   
+}
+
+.td-subtitle {
+    width: 100%;
+    background-color: #e9e8e8;
+    padding: 5px;
+    font-style: italic;
+}
+.td-subtitle2 {
+    width: 100%;
+    min-width: 100%;
+    background-color: #e4eaf7;
+    padding: 5px;
+    font-style: italic;
+    text-align: left;
+}
